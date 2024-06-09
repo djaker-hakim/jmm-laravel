@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "stm\\jmmLaravel" : "src/"
+            "stm\\jmmLaravel\\" : "src/"
         }
     },
     "extra": {
