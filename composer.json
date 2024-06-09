@@ -1,0 +1,31 @@
+{
+    "name": "djaker-hakim/jmm-laravel",
+    "type": "library",
+    "description": "JSON mini Model for laravel.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hakim",
+            "email": "hakiltheknight@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^8.1",
+        "djaker-hakim/jmm":"^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "stm\\jmmLaravel" : "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "stm\\jmmLaravel\\JmmServiceProvider"
+        ]
+    }
+}
+
+
+}
